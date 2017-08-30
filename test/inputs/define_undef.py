@@ -6,34 +6,34 @@
 
 if __name__ == '__main__':
 # #if FOO_A
-    print "a"
+    print("a")
 # #endif
 # #if FOO_B
-    print "b"
+    print("b")
 # #endif
 # #if defined("FOO_B")
-    print "b defined"
+    print("b defined")
 # #endif
 # #if FOO_C
-    print "c"
+    print("c")
 # #endif
 # #if defined("FOO_D")
-    print "d defined"
+    print("d defined")
 # #endif
 
 # #undef FOO_B
 # #undef FOO_D
 
 # #if FOO_A
-    print "a"
+    print("a")
 # #endif
 # #if defined("FOO_B")
-    print "b defined"
+    print("b defined")
 # #endif
 # #if FOO_C
-    print "c"
+    print("c")
 # #endif
 # #if defined("FOO_D")
-    print "d defined"
+    print("d defined")
 # #endif
 

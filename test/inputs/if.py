@@ -5,7 +5,7 @@
 # #define UN 1
 if __name__ == '__main__':
 # #if ONE
-    print "hi"
+    print("hi")
 # #endif
-    print "bye"
+    print("bye")
 

@@ -3,9 +3,9 @@
 # #define ZERO 0
 if __name__ == '__main__':
 # #if ZERO
-    print "zero"
+    print("zero")
 # #else
-    print "not zero"
+    print("not zero")
 # #endif
-    print "bye"
+    print("bye")
 

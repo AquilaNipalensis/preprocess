@@ -60,7 +60,7 @@ class test(Task):
                 # Don't (yet) support Python 3.
                 continue
             ver_str = "%s.%s" % ver
-            print "-- test with Python %s (%s)" % (ver_str, python)
+            print("-- test with Python %s (%s)" % (ver_str, python))
             assert ' ' not in python
             sh.run_in_dir("%s test.py" % python,
                           join(self.dir, "test"))
@@ -220,7 +220,7 @@ class todo(Task):
 
         path = join(self.dir, "TO""DO.txt")
         todos = re.compile("^- ", re.M).findall(open(path, 'r').read())
-        print "(plus %d TODOs from TO""DO.txt)" % len(todos)
+        print("(plus %d TODOs from TO""DO.txt)" % len(todos))
 
     def _dump_pattern_in_path(self, pattern, path):
         os.system("grep -nH '%s' '%s'" % (pattern, path))
@@ -372,7 +372,7 @@ def _paths_from_path_patterns(path_patterns, files=True, dirs="never",
     from os.path import basename, exists, isdir, join
     from glob import glob
 
-    assert not isinstance(path_patterns, basestring), \
+    assert not isinstance(path_patterns, str), \
         "'path_patterns' must be a sequence, not a string: %r" % path_patterns
     GLOB_CHARS = '*?['
 

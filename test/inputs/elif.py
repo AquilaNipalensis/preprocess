@@ -5,15 +5,15 @@
 # #define UN 1
 if __name__ == '__main__':
 # #if ZERO
-    print "a"
+    print("a")
 # #elif ZERO
-    print "b"
+    print("b")
 # #elif ONE
-    print "c"
+    print("c")
 # #elif ONE
-    print "d"
+    print("d")
 # #else
-    print "e"
+    print("e")
 # #endif
-    print "bye"
+    print("bye")
 

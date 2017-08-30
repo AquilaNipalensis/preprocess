@@ -5,19 +5,19 @@
 # #define UN 1
 if __name__ == '__main__':
 # #ifdef ONE
-    print "ONE defined"
+    print("ONE defined")
 # #else
-    print "ONE not defined"
+    print("ONE not defined")
 # #endif
 # #ifdef ZERO
-    print "ZERO defined"
+    print("ZERO defined")
 # #else
-    print "ZERO not defined"
+    print("ZERO not defined")
 # #endif
 # #ifdef FOO
-    print "FOO defined"
+    print("FOO defined")
 # #else
-    print "FOO not defined"
+    print("FOO not defined")
 # #endif
-    print "bye"
+    print("bye")
 

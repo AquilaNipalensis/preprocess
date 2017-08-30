@@ -1,5 +1,5 @@
 #!python
 
-print "hi"
-print "bye"
+print("hi")
+print("bye")
 

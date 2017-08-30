@@ -5,14 +5,14 @@
 # #define UN 1
 if __name__ == '__main__':
 # #if ONE
-    print "one"
+    print("one")
 # #if UN
-    print "un"
+    print("un")
 # #endif
-    print "still, just one"
+    print("still, just one")
 # #if ZERO
-    print "zero"
+    print("zero")
 # #endif
 # #endif
-    print "bye"
+    print("bye")
 

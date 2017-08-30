@@ -1,6 +1,6 @@
 #!python
 
-print "hi"
+print("hi")
 # #if 0
 
 # The following should not cause an error, but did up until
@@ -8,5 +8,5 @@ print "hi"
 # #error womba womba womba
 
 # #endif
-print "bye"
+print("bye")
 

@@ -5,8 +5,8 @@
 # #define UN 1
 if __name__ == '__main__':
 # #if ONE
-    print "hi"
+    print("hi")
 # #error This is an error string.
 # #endif
-    print "bye"
+    print("bye")
 

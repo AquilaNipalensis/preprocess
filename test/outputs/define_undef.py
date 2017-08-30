@@ -2,9 +2,9 @@
 
 
 if __name__ == '__main__':
-    print "b defined"
-    print "c"
+    print("b defined")
+    print("c")
 
 
-    print "c"
+    print("c")
 

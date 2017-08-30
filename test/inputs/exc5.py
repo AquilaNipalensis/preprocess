@@ -1,4 +1,4 @@
 # #if defined(FOO)
-print "foo"
+print("foo")
 # #endif
 
